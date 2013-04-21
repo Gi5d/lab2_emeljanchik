@@ -15,8 +15,6 @@ char read_argument(int argc, char **argv)
 			return '1';
 		if(!(strcmp(argv[1], "-sem2")))
 			return '2';
-		if(!(strcmp(argv[1], "-sem3")))
-			return '3';
 	}
 	return '0';
 }
@@ -59,7 +57,7 @@ int main (int argc, char **argv)
 {
 	int i, j, k[N];
 	info p[N];					//p - pointer
-	for (i=0; i<N; i++)			//ввод данных
+	for (i=0; i<N; i++)			//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	{
 		fflush (stdin);
 		printf ("vvedite familijy %d studenta: ", i+1);
@@ -94,9 +92,6 @@ int main (int argc, char **argv)
 			break;
 		case '2': 
 			j=2;
-			break;
-		case '3':
-			j=3;
 			break;
 		default:
 			printf("\niz komandnoi stroki ne polycheni vernii zapros.");
